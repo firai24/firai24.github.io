@@ -13,7 +13,7 @@ body{
     overflow: hidden;
 }
 
-.marquee div{
+.marquee .text{
     font-size: 10rem;
     font-family: sans-serif;
     animation: animate 30s linear infinite;
