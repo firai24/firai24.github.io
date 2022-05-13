@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marquee{
+    width: 80%;
+    background-color: burlywood;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee div{
+    font-size: 10rem;
+    font-family: sans-serif;
+    animation: animate 30s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+}
+
+@keyframes animate{
+    100%{
+        transform: translate(-100%, 0);
+    }
+}
